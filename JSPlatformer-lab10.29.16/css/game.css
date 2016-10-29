@@ -1,0 +1,18 @@
+.background    { background-image: url("background1.jpg");
+                 background-size: contain;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(222, 75, 17); }
+.wall          { background: rgb(50, 60, 99);  }
+
+.actor  { position: absolute;  }
+.player { background: rgb(219, 4, 144); }
+.coin   { background: rgb(241, 219, 89); }
+.vandoom { background: rgb(4, 221, 80); }
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
